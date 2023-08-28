@@ -12,47 +12,42 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 function Home2() {
-  const { t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-            {t("HOME.myselgf.titel")} <span className="purple"> {t("HOME.myselgf.titel1")} </span> 
+              {t("HOME.myselgf.titel")} <span className="purple"> {t("HOME.myselgf.titel1")} </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              {t("HOME.myselgf.desc1")}{" "}🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />{t("HOME.myselgf.desc2")}
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> {t("HOME.myselgf.desc5")}</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              {t("HOME.myselgf.desc3")} &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">{t("HOME.myselgf.desc6")}{" "}</b>
+
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
+              {t("HOME.myselgf.desc4")}
+              {/* <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
-              </i>
-              &nbsp; like
-              <i>
+              </i> */}
+
+              {/* <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -63,9 +58,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>{t("HOME.find.titel")}</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              {t("HOME.find.desc")} <span className="purple">{t("HOME.find.desc1")} </span> {t("HOME.find.desc2")}
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -105,7 +100,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  < AiFillFacebook/>
+                  < AiFillFacebook />
                 </a>
               </li>
             </ul>

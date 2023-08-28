@@ -1,38 +1,41 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import { useTranslation } from "react-i18next";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
+  const { t} = useTranslation();
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Wala Kharouf </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            {t("ABOUTSUS.desc")} <span className="purple">{t("ABOUTSUS.name")} </span>
+            {t("ABOUTSUS.from")} <span className="purple"> {t("ABOUTSUS.gabes")}</span>
+            <br /> {t("ABOUTSUS.desc1")}
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            {t("ABOUTSUS.desc3")}
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            {t("ABOUTSUS.desc2")}
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> {t("ABOUTSUS.activities.one")}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> {t("ABOUTSUS.activities.tow")}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> {t("ABOUTSUS.activities.three")}
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> {t("ABOUTSUS.activities.four")}
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "{t("ABOUTSUS.desc4")}"{" "}
           </p>
           {/* <footer className="blockquote-footer">Kharouf</footer> */}
         </blockquote>
