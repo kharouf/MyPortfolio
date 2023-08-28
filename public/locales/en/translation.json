@@ -22,19 +22,27 @@
       "titel": "LET ME INTRODUCE ",
       "titel1" :"MYSELF",
       "desc1": "I fell in love with programming and I have at least learnt something, I think… ",
-      "desc2": "I am fluent in classics like C++, Javascript and Go.",
-      "desc3": "My field of Interest's are building new  Web Technologies and Products and also in areas related to Blockchain.",
+      "desc2": "I am fluent in classics like",
+      "desc5":" C++, Javascript and Go.",
+      "desc3": "My field of Interest's are building new  ",
+      "desc6":"Web Technologies and Products and also in areas related to Blockchain.",
       "desc4": "Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks  like React.js and Next.js"
     },
     "find":{
       "titel":"FIND ME ON",
-      "desc":"Feel free to connect with me"
+      "desc":"Feel free to ",
+      "desc1":"connect ",
+      "desc2":"with me"
     }
   },
   "ABOUTSUS":{
-  "titel":"Know Who I'M",
-  "desc":"Hi Everyone, I am Wala Kharouf from Tunisia, Gabes.",
-  "desc1":"I am a final year student pursuing an Integrated MSc (IMSc) in Maths and Computing at BIT Mesra. Additionally, I am currently employed as a software developer at Juspay.",
+  "titel":"Know Who ",
+  "desc":"Hi Everyone, I am",
+  "name":"Wala Kharouf",
+  "from":"from",
+  "gabes":"Tunisia, Gabes.",
+  "desc1":"I am a final year student pursuing an Integrated MSc (IMSc) in Maths and Computing at BIT Mesra.",
+  "desc3":" Additionally, I am currently employed as a software developer at Juspay.",
   "desc2":"Apart from coding, some other activities that I love to do!",
   "activities":{
     "one":"Playing Games",
@@ -53,7 +61,7 @@
   },
   "PROJECTS":{
    "myrecent":"My Recent",
-   " Works":" Works",
+   "Works":" Works",
    "desc":"Here are a few projects I've worked on recently."
   },
   "Resume":"Download CV",

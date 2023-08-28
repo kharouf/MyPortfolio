@@ -21,7 +21,7 @@ import { NavItem } from "react-bootstrap";
 import i18n from "../i18n";
 import frFlag from "../Assets/falg-fr.svg";
 import arrFlag from "../Assets/flag-tn.svg";
-import arFlag from "../Assets/saudi-arabia.svg";
+// import arrFlag from "../Assets/saudi-arabia.svg";
 import enFlag from "../Assets/US_icon.svg";
 function NavBar() {
 
@@ -57,7 +57,7 @@ function NavBar() {
   const handleLanguageChange = (language) => {
     i18n.changeLanguage(language);
     setIsOpen(false);
-    // window.location.reload();
+    window.location.reload();
   };
   // switch flag to language
   const getFlag = (language) => {
@@ -65,7 +65,7 @@ function NavBar() {
       case "fr":
         return frFlag;
       case "ar":
-        return arFlag;
+        return arrFlag;
       case "en":
         return enFlag;
       // Add more cases for other languages
@@ -155,7 +155,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/"
                 onClick={() => updateExpanded(false)}
               >
                 {/* <CgFileDocument style={{ marginBottom: "2px" }} /> */}
@@ -205,19 +205,22 @@ function NavBar() {
             isOpen={isOpen}
             directionglobe={true}
           >
-            {/* <DropdownItem onClick={() => handleLanguageChange("ar")}>
-              <FlagIcon src={arFlag} alt="ar" />
-              العربية{" "}
-            </DropdownItem> */}
+             <DropdownItem onClick={() => handleLanguageChange("en")}>
+              <FlagIcon src={enFlag} alt="en" />
+              Anglais
+            </DropdownItem>
+            
             <DropdownItem onClick={() => handleLanguageChange("fr")}>
               <FlagIcon src={frFlag} alt="fr" />
               Français
             </DropdownItem>
 
-            <DropdownItem onClick={() => handleLanguageChange("en")}>
-              <FlagIcon src={enFlag} alt="en" />
-              Anglais
-            </DropdownItem>
+            {/* <DropdownItem onClick={() => handleLanguageChange("ar")}>
+              <FlagIcon src={arrFlag} alt="ar" />
+              العربية{" "}
+            </DropdownItem> */}
+
+           
           </DropdownMenu>
         ) : null}
       </DropdownContainer> 

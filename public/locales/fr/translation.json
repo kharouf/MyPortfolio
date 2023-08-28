@@ -8,58 +8,64 @@
   "languageSelector.en": "Anglais",
 
   "NAVBAR": {
-    "ACCEUIL": "Acceuil",
+    "ACCEUIL": "Accueil",
     "APROPOS": "À propos",
     "Projects": "Projets",
     "Resume": "Curriculum Vitae"
   },
   "HOME": {
     "titel1": "Salut ! ",
-    "IM": "Je suis",
-    "MERN": "Développeur Full Stack  JS",
+    "IM": "JE SUIS",
+    "MERN": "Développeur MERN Stack",
     "FRELANCE": "Freelancer",
     "myselgf": {
       "titel": "PERMETTEZ-MOI DE ME ",
-      "titel1" :"PRÉSENTER",
+      "titel1": "PRÉSENTER",
       "desc1": "Je suis tombé amoureux de la programmation et j'ai au moins appris quelque chose, je pense… ",
-      "desc2": "Je suis à l'aise avec des langages classiques comme C++, Javascript et Go.",
-      "desc3": "Mes domaines d'intérêt sont la création de nouvelles technologies Web et de produits, ainsi que les domaines liés à la blockchain.",
-      "desc4": "Chaque fois que c'est possible, j'applique également ma passion pour le développement de produits avec Node.js et les bibliothèques et frameworks JavaScript modernes comme React.js et Next.js"
+      "desc2": "Je maîtrise des langages classiques comme",
+      "desc5": " C++, JavaScript et Go.",
+      "desc3": "Mes domaines d'intérêt incluent la création de nouvelles ",
+      "desc6": "technologies et produits Web, ainsi que les domaines liés à la blockchain.",
+      "desc4": "Chaque fois que c'est possible, j'applique également ma passion pour développer des produits avec Node.js et des bibliothèques et frameworks JavaScript modernes comme React.js et Next.js"
     },
-    "find":{
-      "titel":"RETROUVEZ-MOI SUR",
-      "desc":"N'hésitez pas à me contacter"
+    "find": {
+      "titel": "REJOIGNEZ-MOI SUR",
+      "desc": "N'hésitez pas à ",
+      "desc1": "me contacter ",
+      "desc2": ""
     }
   },
-  "ABOUTSUS":{
-  "titel":"Découvrez qui je suis",
-  "desc":"Salut à tous, je suis Wala Kharouf de Tunisie, Gabès.",
-  "desc1":"Je suis étudiant en dernière année poursuivant un Master intégré en mathématiques et informatique à BIT Mesra. De plus, je suis actuellement employé en tant que développeur logiciel chez Juspay.",
-  "desc2":"En dehors de la programmation, voici d'autres activités que j'adore faire !",
-  "activities":{
-    "one":"Jouer à des jeux",
-    "tow":"Jouer à des jeux",
-    "three":"Jouer à des jeux",
-    "four":"Jouer à des jeux"
+  "ABOUTSUS": {
+    "titel": "Découvrez qui ",
+    "desc": "Bonjour à tous, je suis",
+    "name": "Wala Kharouf",
+    "from": "de",
+    "gabes": "Tunisie, Gabès.",
+    "desc1": "Je suis étudiant en dernière année poursuivant un Master intégré en mathématiques et informatique à BIT Mesra.",
+    "desc3": " De plus, je travaille actuellement en tant que développeur logiciel chez Juspay.",
+    "desc2": "En dehors de la programmation, voici d'autres activités que j'adore faire !",
+    "activities": {
+      "one": "Jouer à des jeux",
+      "tow": "Jouer à des jeux",
+      "three": "Jouer à des jeux",
+      "four": "Jouer à des jeux"
+    },
+    "desc4": "Je m'efforce de construire des choses qui font la différence !",
+    "profSkils": "Compétences Professionnelles",
+    "skilitz": "Ensemble de Compétences",
+    "tools": "Outils ",
+    "iuse": "J'utilise",
+    "days": "Jours ",
+    "icode": "Je Code"
   },
-  "desc4":"Je m'efforce de construire des choses qui font la différence !",
-  "profSkils":"Compétences Professionnelles",
-  "skilitz":"Ensemble de Compétences",
-  "tools":"Outils ",
-  "iuse":"J'utilise",
-  "days":"Jours ",
-  "icode":"Je Code"
+  "PROJECTS": {
+    "myrecent": "Mes Projets",
+    "Works": " Réalisations",
+    "desc": "Voici quelques projets sur lesquels j'ai récemment travaillé."
+  },
+  "Resume": "Télécharger le CV",
 
-  },
-  "PROJECTS":{
-   "myrecent":"Mes Projets",
-   " Works":" Réalisations",
-   "desc":"Voici quelques projets sur lesquels j'ai récemment travaillé."
-  },
-  "Resume":"Télécharger CV",
-
-  "FOOTER":{
-    "titel":"Conçu et Développé par"
+  "FOOTER": {
+    "titel": "Conçu et Développé par"
   }
-
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
@@ -20,6 +21,7 @@ import {
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
+  const { t} = useTranslation();
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
