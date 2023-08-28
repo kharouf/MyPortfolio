@@ -106,7 +106,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        {/* src={logo} className="img-fluid logo" alt="brand" */}
+          <IMG  > WK</IMG>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -122,7 +123,8 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> {t("NAVBAR.ACCEUIL") }
+                {/* <AiOutlineHome style={{ marginBottom: "2px" }} />  */}
+                {t("NAVBAR.ACCEUIL") }
               </Nav.Link>
             </Nav.Item>
 
@@ -132,7 +134,8 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> {t("NAVBAR.APROPOS") }
+                {/* <AiOutlineUser style={{ marginBottom: "2px" }} />  */}
+                {t("NAVBAR.APROPOS") }
               </Nav.Link>
             </Nav.Item>
 
@@ -142,10 +145,10 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                {/* <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                />{" "} */}
+                {t("NAVBAR.Projects") }
               </Nav.Link>
             </Nav.Item>
 
@@ -155,21 +158,23 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                {/* <CgFileDocument style={{ marginBottom: "2px" }} /> */}
+                {t("NAVBAR.Resume") }
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                 <ImBlog style={{ marginBottom: "2px" }} />
+                 Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/soumyajit4419/Portfolio"
                 target="_blank"
@@ -178,7 +183,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item>
 {/* Language */}
 <Nav.Link>
@@ -285,3 +290,9 @@ const FlagIcon = styled.img`
   width: 20px;
   height: 18px;
 `;
+
+const IMG = styled.h1`
+ font-family:Impact, 'Arial Narrow Bold', sans-serif;
+  /* border:1px solid red; */
+  /* border-radius:100%; */
+`;  
