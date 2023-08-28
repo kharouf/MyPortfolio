@@ -8,403 +8,58 @@
   "languageSelector.en": "English",
 
   "NAVBAR": {
-    "ACCEUIL": "HOME",
-    "APROPOS": "ABOUT US",
-    "SERVICES": "SERVICES",
-    "CONTACT": "CONTACT",
-    "DEVENIR": "BECOME A PARTNER",
-    "Connexion": "Login",
-    "Sinscrire": "Sign Up",
-    "Deconnecte": "Logout"
+    "ACCEUIL": "Home",
+    "APROPOS": "About",
+    "Projects": "Projects",
+    "Resume": "Resume"
   },
+  "HOME": {
+    "titel1": "Hi There! ",
+    "IM": "I'M",
+    "MERN": "MERN Stack Developer",
+    "FRELANCE": "Freelancer",
+    "myselgf": {
+      "titel": "LET ME INTRODUCE ",
+      "titel1" :"MYSELF",
+      "desc1": "I fell in love with programming and I have at least learnt something, I think… ",
+      "desc2": "I am fluent in classics like C++, Javascript and Go.",
+      "desc3": "My field of Interest's are building new  Web Technologies and Products and also in areas related to Blockchain.",
+      "desc4": "Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks  like React.js and Next.js"
+    },
+    "find":{
+      "titel":"FIND ME ON",
+      "desc":"Feel free to connect with me"
+    }
+  },
+  "ABOUTSUS":{
+  "titel":"Know Who I'M",
+  "desc":"Hi Everyone, I am Wala Kharouf from Tunisia, Gabes.",
+  "desc1":"I am a final year student pursuing an Integrated MSc (IMSc) in Maths and Computing at BIT Mesra. Additionally, I am currently employed as a software developer at Juspay.",
+  "desc2":"Apart from coding, some other activities that I love to do!",
+  "activities":{
+    "one":"Playing Games",
+    "tow":"Playing Games",
+    "three":"Playing Games",
+    "four":"Playing Games"
+  },
+  "desc4":"Strive to build things that make a difference!",
+  "profSkils":"Professional" ,
+  "skilitz":"Skillset",
+  "tools":"Tools ",
+  "iuse":"I use",
+  "days":"Days ",
+  "icode":"I Code"
 
-  "Step1": {
-    "DÉPART": "DEPARTURE",
-    "Adresse-départ": "Departure Address",
-    "Aujourd": "Today",
-    "Heure": "Hour",
-    "Minute": "Minute",
-    "Au-plus": "Earliest (within 1h)",
-    "Accés": "Access",
-    "Aupied": "At the foot of the truck",
-    "chezMoi": "At My Place",
-    "rdc": "Ground Floor",
-    "remplir": "Please fill in all fields",
-    "remplirA": "Please fill in the address",
-    "RDC": "With Elevator",
-    "sansRDC": "Without Elevator",
-    "étage": "Floor",
-    "Info": "Pack your items, our drivers transport them carefully in the truck, secured by straps and blankets.",
-    "Btn-saisire": "Enter Arrival"
   },
-  "Step2": {
-    "ARRIVÉÉ": "ARRIVAL",
-    "Btn-saisire-objet": " Enter Your Items ",
-    "Adresse-arrivée": "Arrival Address"
+  "PROJECTS":{
+   "myrecent":"My Recent",
+   " Works":" Works",
+   "desc":"Here are a few projects I've worked on recently."
   },
-  "Step3": {
-    "objets": "Your Items",
-    "desc": "For accurate billing, choose a similar item from the search. If the item is not found, select a similar size from the list. Contact us for any questions.",
-    "obtenir": "Get an estimate",
-    "ex": "Ex: 1 Table"
-  },
-  "Step4": {
-    "info": "Your Information",
-    "PRIX": "PRICE",
-    "camion": "At the foot of the truck",
-    "chezmoi": "At my place",
-    "confirmer": "Confirm",
-    "annuler": "Cancel",
-    "Continuer": "Continue",
-    "sansAide": {
-      "sansAide": "Without Assistance",
-      "desc1": "Ideal for small parcels or boxes you can lift on your own without assistance.",
-      "desc2": "Upon arrival, the driver will place the parcels at the foot of the truck for your convenience."
-    },
-    "avecAide": {
-      "avecAide": "With Assistance",
-      "desc1": "Choose this option if you have heavier or bulkier parcels that require assistance.",
-      "desc2": "2 handlers will be available to help you load/unload your parcels safely."
-    }
-  },
-  "Step5": {
-    "alert1": "Please choose the payment method",
-    "alert": "Please accept the terms and conditions",
-    "Payement": "Payment",
-    "confPayement": "Confirm Payment",
-    "Succès": "Success !!",
-    "description": "Your order has been successfully placed.",
-    "OK": "OK",
-    "PayerL": "Pay on delivery",
-    "PayerLD": "Pay in cash on delivery",
-    "PayerC": "Credit/Debit Cards",
-    "PayerCD": "Pay with your credit/debit card"
-  },
-  "ACCEUILE": {
-    "APROPOSdeNous": "Hezli",
-    "EFFICACITE": "Speed, Reliability, and Safety",
-    "description": "Hezli is your trusted partner as a delivery service provider. We are committed to offering fast, reliable, and secure service. Thanks to remarkable efficiency, we deliver your items in an impressive time frame. We adhere to rigorous safety standards where each delivery step is carefully monitored to ensure the integrity of your items. With Hezli, you benefit from a comprehensive delivery solution, where your items are in the qualified hands of our team.",
-    "btnSavoir": "LEARN MORE",
-    "Delai": {
-      "title": "Fast Delivery",
-      "desc": "Our drivers are at your service within an hour based on the address you provided."
-    },
-    "Coût": {
-      "title": "Advanced Technology",
-      "desc": "Explore our technological expertise and dive into the use of our innovative application."
-    },
-    "ÉTAPES": {
-      "title1": "SIMPLE STEPS",
-      "title2": "An Agile and Efficient Process",
-      "desc": "Discover our service designed to offer you an exceptional delivery experience every time.",
-      "QuatreEtaps": {
-        "etap1": {
-          "title": "BE HAPPY",
-          "desc": "Delighted with our exceptional service, exceeding your transport needs."
-        },
-        "etap2": {
-          "title": "LOAD",
-          "desc": "We ensure quick and accurate collection of items."
-        },
-        "etap3": {
-          "title": "DELIVER",
-          "desc": "Count on our efficient and reliable team for fast and secure delivery."
-        },
-        "etap4": {
-          "title": "ORDER",
-          "desc": "Facilitate your Transport Order in just a few clicks."
-        },
-        "commentaire1": "Want to know more?",
-        "commentaire2": " Discover more"
-      }
-    },
-    "PRESTATION-SERVICE-1": {
-      "title1": "OUR SERVICES",
-      "title2": "Track your items with precision",
-      "desc": "Stay informed with our mobile app and website. Effortlessly book your truck via our online platform. Our simple form on the app or website ensures quick and secure booking."
-    },
-    "PRESTATION-SERVICE-3": {
-      "title1": "Our Services",
-      "title2": "A bouquet of varied offers",
-      "desc": "Explore the wide range of our customized moving services, carefully adjusted to meet your specific needs."
-    },
-    "PRESTATION-SERVICE-2": {
-      "title1": "ASSURED SERVICE",
-      "title2": "A bouquet of varied offers",
-      "desc": "Choose Hezli and experience exceptional delivery; fast deliveries, attentive assistance, and peace of mind.",
-      "Cards": {
-        "card1": {
-          "title": "Store Delivery",
-          "desc": "You can pick up your deliveries from one of our stores."
-        },
-        "card2": {
-          "title": "Small Movements",
-          "desc": "We handle your small-scale moves!"
-        },
-        "card3": {
-          "title": "Parcel Transport",
-          "desc": "Fast delivery within exceptionally short deadlines."
-        },
-        "card4": {
-          "title": "Movers Only",
-          "desc": "Do you only need movers? Count on us."
-        },
-        "card5": {
-          "title": "Apartment Moving",
-          "desc": "Every family has unique moving needs. Our professional movers are here for you."
-        },
-        "card6": {
-          "title": "Office Moving",
-          "desc": "We know how crucial moving your office is, but don't worry, we handle everything masterfully."
-        }
-      },
-      "Bulletin": {
-        "title1": "Newsletter",
-        "title2": "Subscribe to our newsletter",
-        "Btn-Envoyer": "Send"
-      }
-    },
-    "TÉLÉCHARGER": {
-      "title1": "DOWNLOAD",
-      "title2": "Download our app",
-      "desc": "Simplify your transport experience with the Hezli app. Book, track, and manage deliveries effortlessly. Start now and enjoy seamless logistics at your fingertips."
-    },
-    "CONTACT": {
-      "title1": "CONTACT",
-      "title2": "Contact us",
-      "desc": "Do you have questions or need assistance? Contact our friendly team today. We're here to help and provide you with the information you need.",
-      "Adresse": {
-        "addresses": "Salah Ben Youssef Avenue, Djerba"
-      }
-    },
-    "COMMENCER": {
-      "title1": "Get Started",
-      "desc": "Sign up on our website or app and discover seamless logistic solutions for all your transport needs. Join Hezli today.",
-      "btn-Comencer": "Get Started"
-    }
-  },
-  "ABOUT": {
-    "Apropos": {
-      "title1": "About Hezli",
-      "title2": "Delivering Excellence Every Step",
-      "desc": "Explore our exceptional transport offers in France, precise and efficient logistic solutions to meet your expectations.",
-      "btn-obten": "Get an Estimate"
-    },
-    "NOTRE-COMPARE": {
-      "title1": "Our Company",
-      "title2": "Our Service Within Your Reach",
-      "desc": "Hezli is a delivery company specialized in transporting a wide range of items, including documents, office supplies, packaged products, fragile items, furniture, and equipment. We offer this service to businesses from various sectors as well as individuals in Île-de-France. With our competent and dedicated team, we ensure the safety and timeliness of your parcels. Whether it's a small package or a massive shipment, Hezli is committed to delivering your items safely and on schedule."
-    },
-    "DEMENAGEMENT": {
-      "Paragraph": "Fast secure delivery. Very good courteous",
-      "Para": " and polite driver satisfied I will not hesitate to use your services again.",
-      "Nom-Client": "Jean P"
-    },
-    "AGENTSLISTE": {
-      "Header": {
-        "title1": "Our Agent List",
-        "desc": " Dedicated and competent professionals - Committed to providing smooth and reliable transport services."
-      },
-      "AgentCard1": {
-        "Ligne": "Agent 1",
-        "Li": "CEO"
-      },
-      "AgentCard2": {
-        "Ligne": "Agent 2",
-        "Li": "Driver"
-      },
-      "AgentCard3": {
-        "Ligne": "Agent 3",
-        "Li": "Marketing Manager"
-      },
-      "AgentCard4": {
-        "Ligne": "Agent 4",
-        "Li": "Admin"
-      }
-    },
-    "SERVICES-HEZLI": {
-      "Nos-Service": {
-        "title1": "HEZLI SERVICES",
-        "title2": "Our Expertise Follows You Every Step!",
-        "desc": "Whether it's around the corner or across the country, our competent team offers you a smooth and stress-free experience.",
-        "btn-obten": "Get an Estimate"
-      },
-      "ABOUT-SERVICE": {
-        "title1": "ABOUT SERVICE",
-        "title2": "About Hezli's Services",
-        "desc1": "We are proud to present our comprehensive range of transport services, designed to meet your varied needs. Guided by our commitment to excellence, we provide reliable and efficient solutions to ensure smooth transport for your shipments.",
-        "desc2": "From collection to delivery; whether you have light, heavy, or specialized parcels, our team is ready to handle everything by adopting the most appropriate logistics strategies. We carefully handle each step, offering much more than just a service."
-      },
-      "ÉTAPES-FACILES": {
-        "title1": "SIMPLE STEPS",
-        "title2": "An Agile and Efficient Process",
-        "desc": "Our approach aims to offer you a fully satisfying experience! Contact us and get a quote in a blink of an eye.",
-        "etap1": {
-          "title": "ORDER",
-          "desc": "Easily place your transport order in a few clicks."
-        },
-        "etap2": {
-          "title": "DELIVER",
-          "desc": "Trust our efficient and reliable team for safe and fast delivery."
-        },
-        "etap3": {
-          "title": "PICK UP",
-          "desc": "Fast and careful collection of items for flawless transport."
-        },
-        "etap4": {
-          "title": "BE HAPPY",
-          "desc": "Delighted with our exceptional service, surpassing your transport needs."
-        }
-      },
-      "SERVICE": {
-        "title1": "Service",
-        "title2": "Ultra-Accessible, Hassle-Free Services!",
-        "desc1": "We strive to create an inclusive experience, where each step of our process is meticulously arranged to ensure an unparalleled level of accuracy. From collecting items to delivery, we put in place rigorous protocols to ensure seamless execution. Whether you have questions, queries, or simply need information, our contact system allows you to reach us seamlessly. Sign up, drop us a line, or just give us a call!"
-      }
-    }
-  },
-  "HEZLI-CONTACT": {
-    "title1": "HEZLI CONTACT",
-    "title2": "Contact Us",
-    "desc": "Contact us today to discuss your transport needs. Our friendly team is ready to assist you and provide personalized solutions.",
-    "btn-obten": "Get an Estimate",
-    "ContactForm": {
-      "title1": "Contact Us",
-      "desc": "Contact us directly, by phone, or fill out the form to receive a free consultation from our enthusiastic staff.",
-      "phone": "Phone Number",
-      "nom": "Name",
-      "email": "Email Address",
-      "Adresse": "Address",
-      "textAresse": "Djerba, Midoun...",
-      "btnSend": "Send Message",
-      "placeholder": "Type your message",
-      "Message": "Message"
-    }
-  },
-  "FOOTER": {
-    "Menu": "Menu",
-    "FooterLink": {
-      "FooterLink1": "About Us",
-      "FooterLink2": "Our Services",
-      "FooterLink3": "Contact",
-      "FooterLink4": "Get an Estimate",
-      "FooterLink5": "Become a Partner"
-    },
-    "Container": {
-      "HeadingLast": "Join the adventure today!",
-      "Ligne1": "Salah Ben Youssef Avenue, Djerba"
-    },
-    "Copyright": "Copyright",
-    "Tous-réservés": "All rights reserved.",
-    "Last1": "Terms of Use",
-    "Last2": "Privacy Policy"
-  },
-  "LoginCard": {
-    "LoginHeader": {
-      "connecter": "Log In",
-      "comptermination": "to your account"
-    },
-    "LoginSection": {
-      "client": "Are you a client?",
-      "Connexion": "Log In",
-      "devenir-client": "Want to become a client?",
-      "SINSCRIRE": "SIGN UP"
-    },
-    "RegisterSection": {
-      "entreprise": "Are you a business?",
-      "Connexion": "Log In",
-      "devenir-entreprise": "Want to become a partner?",
-      "SINSCRIRE": "SIGN UP"
-    }
-  },
-  "SINSCRIRE": {
-    "Inscrire": "Sign Up",
-    "px": "Or log in using",
-    "Titlee": "Sign up now!",
-    "para": "Easily access and quickly explore our service offerings",
-    "sidentifier": "LOG IN",
-    "FormInput": {
-      "Prénom": "First Name",
-      "nom": "Last Name",
-      "phone": "Phone Number",
-      "email": "Email Address",
-      "pswd": "Password",
-      "confpswd": "Confirm Password",
-      "accepter": "I accept all terms and conditions",
-      "Inscrire": "Sign Up"
-    },
-    "validation": {
-      "Prénom": "Please enter your first name.",
-      "nom": "Please enter your last name.",
-      "phone": "Please enter a valid phone number.",
-      "testPhone": "Invalid phone number.",
-      "email": "Please enter your email address.",
-      "testemail": "Invalid email address.",
-      "pswd": "Please enter your password.",
-      "confpswd": "Passwords must match!"
-    }
-  },
-  "SIDENTIFIER": {
-    "Identifier": "Log In",
-    "HR": "Or log in using",
-    "Titlee": "Don't have an account yet?",
-    "para": "Sign up with a single click and explore our services immediately",
-    "sidentifier": "SIGN UP",
-    "CONNEXION": "LOG IN",
-    "FormInput": {
-      "email": "Email Address",
-      "pswd": "Password",
-      "confpswd": "Forgot Password?",
-      "errmsg": "Please try again!",
-      "accepter": "I accept all terms and conditions",
-      "Inscrire": "Sign Up"
-    },
-    "validation": {
-      "email": "Please enter your email address.",
-      "testemail": "Invalid email address.",
-      "pswd": "Please enter your password.",
-      "confpswd": "Passwords must match!"
-    }
-  },
-  "SINSCRIREpartenaire": {
-    "Inscrire": "Sign Up",
-    "px": "Or log in using",
-    "Titlee": "Already have an account?",
-    "para": "Log in easily and discover our services quickly",
-    "sidentifier": "LOG IN",
-    "FormInput": {
-      "nomP": "Owner's Name",
-      "nomE": "Business Name",
-      "numPatent": "Patent Number",
-      "photoPatent": "Patent Photo",
-      "Activité": "Activity",
-      "phone": "Phone Number",
-      "adresse": "Address",
-      "postalcode": "Postal Code",
-      "Ville": "City",
-      "État": "State",
-      "email": "Email Address",
-      "pswd": "Password",
-      "confpswd": "Confirm Password",
-      "accepter": "I accept all terms and conditions",
-      "Inscrire": "Sign Up"
-    },
-    "validation": {
-      "nomP": "Please enter your name.",
-      "nomE": "Please enter the business name.",
-      "numPatent": "Please enter the patent number.",
-      "photoPatent": "Select a file.",
-      "Activité": "Please enter your activity.",
-      "phone": "Please enter a valid phone number.",
-      "testPhone": "Invalid phone number.",
-      "adresse": "Please enter your address.",
-      "postalcode": "Please enter your postal code.",
-      "Required": "Required field.",
-      "email": "Please enter your email address.",
-      "testemail": "Invalid email address.",
-      "pswd": "Please enter your password.",
-      "confpswd": "Passwords must match!",
-      "accepter": "Please accept the terms and conditions."
-    }
+  "Resume":"Download CV",
+
+  "FOOTER":{
+    "titel":"Designed and Developed by"
   }
+
 }

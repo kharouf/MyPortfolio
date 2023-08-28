@@ -8,448 +8,58 @@
   "languageSelector.en": "Anglais",
 
   "NAVBAR": {
-    "ACCEUIL": "ACCEUIL",
-    "APROPOS": "À PROPOS",
-    "SERVICES": "SERVICES",
-    "CONTACT": "CONTACT",
-    "DEVENIR": "DEVENIR UN PARTENAIRE",
-    "Connexion": "Connexion",
-    "Sinscrire": "S'inscrire",
-    "Deconnecte": " Deconnecte"
+    "ACCEUIL": "Acceuil",
+    "APROPOS": "À propos",
+    "Projects": "Projets",
+    "Resume": "Curriculum Vitae"
   },
+  "HOME": {
+    "titel1": "Salut ! ",
+    "IM": "Je suis",
+    "MERN": "Développeur Full Stack  JS",
+    "FRELANCE": "Freelancer",
+    "myselgf": {
+      "titel": "PERMETTEZ-MOI DE ME ",
+      "titel1" :"PRÉSENTER",
+      "desc1": "Je suis tombé amoureux de la programmation et j'ai au moins appris quelque chose, je pense… ",
+      "desc2": "Je suis à l'aise avec des langages classiques comme C++, Javascript et Go.",
+      "desc3": "Mes domaines d'intérêt sont la création de nouvelles technologies Web et de produits, ainsi que les domaines liés à la blockchain.",
+      "desc4": "Chaque fois que c'est possible, j'applique également ma passion pour le développement de produits avec Node.js et les bibliothèques et frameworks JavaScript modernes comme React.js et Next.js"
+    },
+    "find":{
+      "titel":"RETROUVEZ-MOI SUR",
+      "desc":"N'hésitez pas à me contacter"
+    }
+  },
+  "ABOUTSUS":{
+  "titel":"Découvrez qui je suis",
+  "desc":"Salut à tous, je suis Wala Kharouf de Tunisie, Gabès.",
+  "desc1":"Je suis étudiant en dernière année poursuivant un Master intégré en mathématiques et informatique à BIT Mesra. De plus, je suis actuellement employé en tant que développeur logiciel chez Juspay.",
+  "desc2":"En dehors de la programmation, voici d'autres activités que j'adore faire !",
+  "activities":{
+    "one":"Jouer à des jeux",
+    "tow":"Jouer à des jeux",
+    "three":"Jouer à des jeux",
+    "four":"Jouer à des jeux"
+  },
+  "desc4":"Je m'efforce de construire des choses qui font la différence !",
+  "profSkils":"Compétences Professionnelles",
+  "skilitz":"Ensemble de Compétences",
+  "tools":"Outils ",
+  "iuse":"J'utilise",
+  "days":"Jours ",
+  "icode":"Je Code"
 
-  "Step1": {
-    "DÉPART": "DÉPART",
-    "Adresse-départ": "Adresse de départ",
-    "Aujourd": "Aujourd'hui",
-    "Heure": "Heure",
-    "Minute": "Minute",
-    "Au-plus": "Au plus tôt (dans 1h)",
-    "Accés": "Accés",
-    "Aupied": "Au pied du camion",
-    "chezMoi": "Chez Moi ",
-    "rdc": "Rez-de-chaussée",
-    "remplir": "Veuillez remplir tous les champs",
-    "remplirA": "Veuillez remplir l'addresse",
-    "RDC": "Avec Ascenseur",
-    "sansRDC": "sans Ascenceur",
-    "étage": "étage",
-    "Info": "Emballez vos objets, nos chauffeurs les transportent avec soin dans le camion, protégés par sangles et couvertures.",
-    "Btn-saisire": "saisir l'arrivée"
   },
-  "Step2": {
-    "ARRIVÉÉ": "ARRIVÉ",
-    "Btn-saisire-objet": " Saisir vos objets   ",
-    "Adresse-arrivée": "Adresse d'arrivée"
+  "PROJECTS":{
+   "myrecent":"Mes Projets",
+   " Works":" Réalisations",
+   "desc":"Voici quelques projets sur lesquels j'ai récemment travaillé."
   },
-  "Step3": {
-    "objets": "Vos Objets",
-    "desc": "Pour une facturation précise, choisissez un objet similaire dans la recherche. Si l'objet n'est pas trouvé, sélectionnez une taille similaire dans la liste. Contactez-nous pour toute question.",
-    "obtenir": "Obtenir une estimation",
-    "ex": "Ex : 1 Table"
-  },
-  "Step4": {
-    "info": "Vos Informations",
-    "PRIX": "PRIX",
-    "camion": "Au pied du camion",
-    "chezmoi": "Chez moi",
-    "confirmer": "Confirmer",
-    "annuler": "Annuler",
-    "Continuer": "Continuer",
-    "sansAide": {
-      "sansAide": "Sans Aide",
-      "desc1": "Idéal pour les petits colis ou les boîtes que vous pouvez soulever seul sans aide.",
-      "desc2": " À l'arrivée, le conducteur déposera les colis au pied du camion pour votre commodité."
-    },
-    "avecAide": {
-      "avecAide": "Avec Aide",
-      "desc1": " Choisissez cette option si vous avez des colis plus lourds ou encombrants qui nécessitent une assistance.",
-      "desc2": " 2 manutentionnaires sera disponible pour vous aider à charger/décharger vos colis en toute sécurité."
-    }
-  },
-  "Step5": {
-    "alert1": "Veillez choisir la methode de paiement",
-    "alert": "Veillez accepter les conditions génerales",
-    "Payement": "Payement",
-    "confPayement": "Confirmer le payement",
-    "Succès": "Succès !!",
-    "description": "Votre commande a été passée avec succès.",
-    "OK": "OK",
-    "PayerL": "Payer à la livraison",
-    "PayerLD": "Payer en espèces à la livraison",
-    "PayerC": "Cartes de crédit/débit",
-    "PayerCD": "Payez avec votre carte de crédit/débit"
-  },
-  "ACCEUILE": {
-    "APROPOSdeNous": "Hezli",
-    "EFFICACITE": "Rapidité, Fiabilité et Sécurité",
-    "description": "Hezli est votre partenaire de confiance en tant que prestataire de service de livraison.Nous sommes engagés pour offrir un service rapide, fiable et sécurisé. Grâce à une efficacité remarquable, nous livrons vos objets en un temps impressionnant. Nous appliquons des normes de sécurité rigoureuses où chaque étape de livraison est soigneusement surveillée pour garantir l'intégrité de vos objets. Avec Hezli, vous bénéficiez d'une solution de livraison complète, où vos articles sont entre les mains qualifiées de notre équipe.",
-    "btnSavoir": "EN SAVOIR PLUS",
-    "Delai": {
-      "title": "Livraison Rapide",
-      "desc": "Nos Chauffeurs sont à votre service au bout d’une heure selon l'adresse que vous avez recommandée."
-    },
-    "Coût": {
-      "title": "Technologie Avancée",
-      "desc": "Explorez notre expertise technologique et plongez dans l’utilisation de notre application innovante."
-    },
-    "ÉTAPES": {
-      "title1": "ÉTAPES SIMPLES",
-      "title2": "Un Processus Agile et Efficace",
-      "desc": "Découvrez notre service conçu pour vous offrir une expérience de livraison exceptionnelle à chaque fois.",
-      "QuatreEtaps": {
-        "etap1": {
-          "title": "SOYEZ HEUREUX",
-          "desc": "Ravi de notre service exceptionnel, dépassant vos besoins de transport."
-        },
-        "etap2": {
-          "title": "CHARGER",
-          "desc": "Nous vous assurons une collecte rapide et précise d'articles."
-        },
-        "etap3": {
-          "title": "LIVRER",
-          "desc": "Comptez sur notre équipe performante et fiable pour une livraison rapide et sécurisée."
-        },
-        "etap4": {
-          "title": "COMMANDER",
-          "desc": "Facilitez votre Commande de Transport en quelques clics seulement . "
-        },
-        "commentaire1": "Voulez vous en savoir plus?",
-        "commentaire2": " Découvrez davantage"
-      }
-    },
-    "PRESTATION-SERVICE-1": {
-      "title1": "NOS SERVICE",
-      "title2": "Traquer vos objets avec précision",
-      "desc": "Restez informé avec notre appli mobile et le site web. Réservez sans effort votre camion via notre plateforme en ligne. Notre formulaire simple sur l'appli ou le site assure une réservation rapide et sécurisée."
-    },
-    "PRESTATION-SERVICE-3": {
-      "title1": "Nos Services",
-      "title2": "Un bouquet d'offres variées",
-      "desc": "Explorez la vaste gamme de nos services de déménagement personnalisés, soigneusement ajustés pour répondre à vos besoins spécifiques."
-    },
-    "PRESTATION-SERVICE-2": {
-      "title1": "SERVICE ASSURÉ",
-      "title2": "Un bouquet d'offres variées  ",
-      "desc": "Optez pour Hezli et expérimentez une livraison exceptionnelle ; livraisons rapides, assistance attentive et tranquillité d'esprit.",
-      "Cards": {
-        "card1": {
-          "title": "Livraison en magasin",
-          "desc": "LVous pouvez retirer vos livraison d’une de nos magasin."
-        },
-        "card2": {
-          "title": "Petits mouvements",
-          "desc": "On gère vos déménagements de petite envergure!."
-        },
-        "card3": {
-          "title": "Transport de colis",
-          "desc": "Livraison rapide en respectant des délais exceptionnellement courts."
-        },
-        "card4": {
-          "title": "Déménageurs uniquement",
-          "desc": "N'avez-vous besoin que de déménageurs ? Comptez sur nous."
-        },
-        "card5": {
-          "title": "Déménagement d'appartement",
-          "desc": "Chaque famille a des besoins de déménagement uniques. Nos déménageurs professionnels sont là pour vous."
-        },
-        "card6": {
-          "title": "Déménagement de bureau",
-          "desc": "On sait à quel point déménager votre bureau est crucial, mais pas d'inquiétude, on gère tout avec maestria."
-        }
-      },
-      "Bulletin": {
-        "title1": "Bulletin",
-        "title2": "Abonnez-vous à notre newsletter",
-        "Btn-Envoyer": "Envoyer"
-      }
-    },
-    "TÉLÉCHARGER": {
-      "title1": "TÉLÉCHARGER",
-      "title2": "Téléchargez notre application",
-      "desc": "Simplifiez votre expérience de transport avec l'application Hezli. Réservez, suivez et gérez les livraisons sans effort. Commencez dès maintenant et profitez d'une logistique transparente à portée de main."
-    },
-    "CONTACT": {
-      "title1": "CONTACT",
-      "title2": "Contactez-nous",
-      "desc": "Avez vous des questions ou besoin d'aide? Contactez notre équipe amicale dès aujourd'hui. Nous sommes là pour vous aider et vous fournir les informations dont vous avez besoin.",
-      "Adresse": {
-        "addresses": "Avenue Salah Ben youssef, Djerba"
-      }
-    },
-    "COMMENCER": {
-      "title1": "Commencer",
-      "desc": "Inscrivez-vous sur notre site Web ou notre application et découvrez des solutions logistiques transparentes pour tous vos besoins de transport. Rejoignez Hezli aujourd'hui.",
-      "btn-Comencer": "Commencer"
-    }
-  },
-  "ABOUT": {
-    "Apropos": {
-      "title1": "À propos Hezli",
-      "title2": "Livrer l'Excellence à Chaque Pas",
-      "desc": "Explorer nos offres de transport exceptionnel en France, des solutions logistiques précises et performantes pour répondre à vos attentes.",
-      "btn-obten": "Obtenez une estimation"
-    },
-    "NOTRE-COMPARE": {
-      "title1": "Notre entreprise",
-      "title2": "Notre Service à Votre Portée",
-      "desc": "Hezli est une entreprise de livraison spécialisée dans le transport d'une large gamme d'articles, notamment de documents, de fournitures de bureau, de produits emballés, d'objets fragiles, de mobilier et d'équipement. Nous proposons ce service aussi bien aux entreprises de différents secteurs qu'aux particuliers en Île-de-France. Avec notre équipe compétente et dévouée, nous assurons la sécurité et la rapidité de vos colis. Qu'il s'agisse d'un petit colis ou d'un envoi massif, Hezli s'engage à livrer vos articles en toute sécurité et dans les délais prévus."
-    },
-    "DEMENAGEMENT": {
+  "Resume":"Télécharger CV",
 
-      "Paragraph": "Livraison rapide sécurisée. Très bon chauffeur courtois",
-      "Para": "  et polie satisfaite je n’hésiterai pas à refaire appel à vos services.",
-      "Nom-Client": "Jean P"
-
-    },
-    "AGENTSLISTE": {
-      "Header": {
-        "title1": "Notre liste d'agents",
-        "desc": " Des professionnels dévoués et compétents - Engagés à assurer des services de transport fluides et fiables."
-      },
-      "AgentCard1": {
-        "Ligne": "Agent 1",
-        "Li": "CEO"
-      },
-      "AgentCard2": {
-        "Ligne": "Agent 2",
-        "Li": "Livreur"
-      },
-      "AgentCard3": {
-        "Ligne": "Agent 3",
-        "Li": "Marketing Manager"
-      },
-      "AgentCard4": {
-        "Ligne": "Agent 4",
-        "Li": "Admin"
-      }
-    },
-    "SERVICES-HEZLI": {
-      "Nos-Service": {
-        "title1": "SERVICES HEZLI",
-        "title2": "Notre Expertise vous suit à chaque pas!",
-        "desc": "Qu'il s'agisse du coin de la rue ou du bout du pays, notre équipe compétente vous propose une expérience aisée et sans stress.",
-        "btn-obten": "Obtenez une estimation"
-      },
-      "ABOUT-SERVICE": {
-        "title1": "ABOUT SERVICE",
-        "title2": "À propos des services de Hezli",
-        "desc1": "Nous sommes fiers de vous présenter notre gamme complète de services de transport, conçus pour répondre à vos besoins variés. Guidés par notre engagement envers l'excellence, nous fournissons des solutions fiables et efficaces afin de garantir un transport sans accroc pour vos envois.",
-        "desc2": "De la collecte à la livraison; que vous ayez des colis légers, lourds ou spécialisés, notre équipe est prête  pour tout gérer en adoptant les stratégies logistiques les plus appropriées. Nous prenons soigneusement en main chaque étape, offrant bien plus qu'un simple service."
-      },
-      "ÉTAPES-FACILES": {
-        "title1": "ÉTAPES SIMPLES",
-        "title2": "Un Processus Agile et Efficace",
-        "desc": "Notre démarche vise à vous offrir une expérience pleinement satisfaisante! Contactez nous et bénéficier d’un devis en clin d'oeil. ",
-        "etap1": {
-          "title": "COMMANDE",
-          "desc": "Passez facilement votre commande de transport en quelques clics."
-        },
-        "etap2": {
-          "title": "LIVRER",
-          "desc": "Faites confiance à notre équipe efficace et fiable pour une livraison sécurisée et rapide."
-        },
-        "etap3": {
-          "title": "RAMASSER",
-          "desc": "Collecte d'articles rapide et soignée pour un transport sans faille."
-        },
-        "etap4": {
-          "title": "SOYEZ HEUREUX",
-          "desc": "Ravi de notre service exceptionnel, dépassant vos besoins de transport. "
-        }
-      },
-      "SERVICE": {
-        "title1": "Service",
-        "title2": "Services ultra accessibles, sans tracas !",
-        "desc1": "Nous nous efforçons de créer une expérience inclusive, où chaque étape de notre processus est minutieusement agencée pour garantir un niveau inégalé de précision . De la collecte d'articles à la livraison, nous mettons en place des protocoles rigoureux pour assurer une exécution sans faille. Que vous ayez des questions, des requêtes ou simplement besoin d'informations, notre système de contact vous permet de nous joindre sans heurts . Inscrivez-vous, laissez-nous un petit mot, ou simplement appelez-nous!."
-      }
-    }
-  },
-  "HEZLI-CONTACT": {
-    "title1": "HEZLI CONTACT",
-    "title2": "Contactez-nous",
-    "desc": "Contactez-nous dès aujourd'hui pour discuter de vos besoins en matière de transport. Notre équipe amicale est prête à vous aider et à vous fournir des solutions personnalisées.",
-    "btn-obten": "Obtenez une estimation",
-    "ContactForm": {
-      "title1": "Contactez-nous",
-      "desc": "Contactez-nous directement, par téléphone ou remplissez le formulaire pour recevoir une consultation gratuite de notre personnel enthousiaste.",
-      "phone": "Numéro de téléphone",
-      "nom": "Nom et prénom",
-      "email": "Adresse email",
-      "Adresse": "Adresse",
-      "textAresse": "Jerba ,Midoun...",
-      "btnSend": "Envoyer un message",
-      "placeholder": "Envoyer le message",
-      "Message": "Message"
-    }
-  },
-  "FOOTER": {
-    "Menu": "Menu",
-    "FooterLink": {
-      "FooterLink1": "A propos de nous",
-      "FooterLink2": "Nos Services",
-      "FooterLink3": "Contact",
-      "FooterLink4": "Obtenir un devis",
-      "FooterLink5": "Devenir partenaire"
-    },
-    "Container": {
-      "HeadingLast": "Joignez-vous à l'aventure dès aujourd'hui !",
-      "Ligne1": "66, avenue de Champs-Élysées, Paris"
-    },
-    "Légale":"Légale",
-    "Copyright": "Copyright",
-    "Tous-réservés": "Tous droits réservés.",
-    "Last1": "Condition d'utilisation",
-    "Last2": "politique de confidentialité"
-  },
-  "LoginCard": {
-    "LoginHeader": {
-      "connecter": "Connectez-vous",
-      "comptermination": "à votre compte"
-    },
-    "LoginSection": {
-      "client": "Vous êtes client ?",
-      "Connexion": "Connexion",
-      "devenir-client": "Vous souhaitez devenir client ?",
-      "SINSCRIRE": "S’INSCRIRE"
-    },
-    "RegisterSection": {
-      "entreprise": "Vous êtes une entreprise ?",
-      "Connexion": "Connexion",
-      "devenir-entreprise": "Vous souhaitez devenir partenaire ?",
-      "SINSCRIRE": "S’INSCRIRE"
-    }
-  },
-  "SINSCRIRE": {
-    "Inscrire": "S'inscrire",
-    "px": "Ou connectez-vous en utilisant",
-    "Titlee": "Inscrivez-vous maintenant!",
-    "para": "Accédez en toute simplicité et explorez rapidement nos offres de services",
-    "sidentifier": "S'identifier",
-    "FormInput": {
-      "Prénom": "Prénom",
-      "nom": "Nom de famille",
-      "phone": "Numéro de téléphone",
-      "email": "Adresse e-mail",
-      "pswd": "Mot de passe",
-      "confpswd": "Confirmez le mot de passe",
-      "accepter": "J'accepte tous les termes et conditions",
-      "Inscrire": "S'inscrire"
-    },
-    "validation": {
-      "Prénom": "Entrez votre prénom s'il vous plait.",
-      "nom": "Veuillez entrer votre nom de famille.",
-      "phone": "s'il vous plaît entrer un numéro de téléphone valide",
-      "testPhone": "Numéro de téléphone invalide",
-      "email": "Veuillez saisir votre e-mail.",
-      "testemail": "email invalide",
-      "pswd": "S'il vous plait entrez votre mot de passe.",
-      "confpswd": "Les mots de passe doivent correspondre !"
-    }
-  },
-  "SIDENTIFIER": {
-    "Identifier": "S'identifier",
-    "HR": "Ou connectez-vous en utilisant",
-    "Titlee": "Vous n'avez pas encore de compte?",
-    "para": "Inscrivez-vous en simple clic et explorez immédiatement nos services",
-    "sidentifier": "S'INSCRIRE",
-    "CONNEXION": "CONNEXION",
-    "FormInput": {
-      "email": "Adresse e-mail",
-      "pswd": "Mot de passe",
-      "confpswd": "Mot de passe oublié?",
-      "errmsg": "veuillez ressayer a nouveau !",
-      "accepter": "J'accepte tous les termes et conditions",
-      "Inscrire": "S'inscrire"
-    },
-    "validation": {
-      "email": "Veuillez saisir votre adresse électronique",
-      "testemail": "email invalide",
-      "pswd": "S'il vous plait entrez votre mot de passe.",
-      "confpswd": "Les mots de passe doivent correspondre !"
-    }
-  },
-  "SINSCRIREpartenaire": {
-    "Inscrire": "S'inscrire",
-    "px": "Ou connectez-vous en utilisant",
-    "Titlee": "Avoir un compte?",
-    "para": "Connectez-vous facilement et découvrez nos services rapidement",
-    "sidentifier": "S'IDENTIFIER",
-    "FormInput": {
-      "nomP": "Nom du propriétaire",
-      "nomE": "Nom de l'entreprise",
-      "numPatent": "Numéro de Patent",
-      "photoPatent": "Photo de Patent",
-      "Activité": "Activité",
-      "phone": "Numéro de téléphone",
-      "adresse": "Addresse",
-      "postalcode": "Code postal",
-      "Ville": "Ville",
-      "État": "État",
-      "email": "Adresse e-mail",
-      "pswd": "Mot de passe",
-      "confpswd": "Confirmez le mot de passe",
-      "accepter": "J'accepte tous les termes et conditions",
-      "Inscrire": "S'inscrire"
-    },
-    "validation": {
-      "nomP": "S'il vous plaît entrez votre nom.",
-      "nomE": "Veuillez saisir le nom de l'entreprise.",
-      "numPatent": "Veuillez entrer le numéro de brevet",
-      "photoPatent": "Selectionez une fichier.",
-      "Activité": "Veuillez entrer votre activité.",
-      "phone": "s'il vous plaît entrer un numéro de téléphone valide",
-      "testPhone": "Numéro de téléphone invalide",
-      "adresse": "Veuillez entrer votre adresse.",
-      "postalcode": "Veuillez entrer votre code postal.",
-      "Required": "Champion requis.",
-      "email": "Veuillez saisir votre e-mail.",
-      "testemail": "email invalide",
-      "pswd": "S'il vous plait entrez votre mot de passe.",
-      "confpswd": "Les mots de passe doivent correspondre !",
-      "accepter": "il faut accepter pour continuer"
-    }
-  },
-  "ClientProfile": {
-    "Nouvelle-image": "Nouvelle image",
-    "User": "Informations Personnelles",
-    "Contact": "Contact Personnel",
-    "Compte": "Compte",
-    "Historique": "Historique",
-    "Réservation": "Nouvelle Réservation",
-    "passer1ere": "Passer votre première commande ...",
-    "ligne": "lignes par page",
-    "of": "de",
-    "Rechercher": "Rechercher",
-    "MTD": "Mot de passe",
-    "pswd": "Modifier le mot de passe",
-    "taperpswd": "Tapez mot de passe",
-    "MTA": "Mettre à jour",
-
-    "FormInput": {
-      "nom": "Nom",
-      "Prénom": "Prénom",
-      "cin": "Numéro d'identité nationale",
-      "phone": "Numéro de téléphone",
-      "email": "Adresse e-mail"
-    },
-    "validation": {
-      "Prénom": "Entrez votre prénom s'il vous plait.",
-      "nom": "Veuillez entrer votre nom de famille.",
-      "cin": "Veuillez entrer votre numéro d'identité nationale",
-      "phone": "s'il vous plaît entrer un numéro de téléphone valide",
-      "email": "Veuillez saisir votre adresse électronique",
-      "testemail": "email invalide"
-    },
-    "ProfileHistory": {
-      "tab": {
-        "ID": "ID",
-        "adresseR": "Adresse de Ramassage",
-        "adresseD": "Adresse de Dépôt",
-        "date": "Date",
-        "status": "Status",
-        "Actions": "Actions"
-      }
-    }
+  "FOOTER":{
+    "titel":"Conçu et Développé par"
   }
+
 }
