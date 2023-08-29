@@ -4,8 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
+import siteweb from "../../Assets/Projects/site-web.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
+import chalenge from "../../Assets/Projects/chalenge.png";
+import crtgh from "../../Assets/Projects/crt-gh.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import { useTranslation } from "react-i18next";
@@ -25,38 +28,38 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={siteweb}
               isBlog={false}
-              title="Chatify"
+              title="Site web Lycée Ghannouchee"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              // ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/kharouf/Site_web_Lycee_Ghannouchee"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={crtgh}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Site Web Croissant Rouge Tunisien"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/kharouf/Site-Web-Croissant-Rouge-Tunisien"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chalenge}
               isBlog={false}
-              title="Editor.io"
+              title="Site Web livraison fast food"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/kharouf/Challenge-HTML-CSS-JS"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -88,7 +91,7 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
