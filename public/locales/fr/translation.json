@@ -15,18 +15,19 @@
   },
   "HOME": {
     "titel1": "Salut ! ",
-    "IM": "JE SUIS",
+    "IM": "je suis",
     "MERN": "Développeur MERN Stack",
     "FRELANCE": "Freelancer",
     "myselgf": {
       "titel": "PERMETTEZ-MOI DE ME ",
       "titel1": "PRÉSENTER",
-      "desc1": "Je suis tombé amoureux de la programmation et j'ai au moins appris quelque chose, je pense… ",
-      "desc2": "Je maîtrise des langages classiques comme",
-      "desc5": " C++, JavaScript et Go.",
-      "desc3": "Mes domaines d'intérêt incluent la création de nouvelles ",
-      "desc6": "technologies et produits Web, ainsi que les domaines liés à la blockchain.",
-      "desc4": "Chaque fois que c'est possible, j'applique également ma passion pour développer des produits avec Node.js et des bibliothèques et frameworks JavaScript modernes comme React.js et Next.js"
+      "desc1": "Je suis tombé amoureux de la programmation et j'ai acquis des compétences significatives dans plusieurs langages de programmation, notamment le ",
+      
+      "desc5": " C++, JavaScript, PHP, python.",
+      "desc3": "Mes domaines d'intérêt se concentrent sur la création de nouvelles",
+      "desc6": "technologies et de produits Web.",
+      "desc4": "Chaque fois que possible, je mets en pratique ma passion en développant des produits avec Node.js et en utilisant des bibliothèques et des frameworks JavaScript modernes tels que",
+      "desc44": " React.js et Next.js."
     },
     "find": {
       "titel": "REJOIGNEZ-MOI SUR",
@@ -37,18 +38,18 @@
   },
   "ABOUTSUS": {
     "titel": "Découvrez qui ",
-    "desc": "Bonjour à tous, je suis",
-    "name": "Wala Kharouf",
-    "from": "de",
+    "desc": "Bonjour à tous ! Je suis",
+    "name": "Wala Kharouf ",
+    "from": "originaire de",
     "gabes": "Tunis, Gabès.",
-    "desc1": "Je suis étudiant en dernière année poursuivant un Master intégré en mathématiques et informatique à BIT Mesra.",
-    "desc3": " De plus, je travaille actuellement en tant que développeur logiciel chez Juspay.",
-    "desc2": "En dehors de la programmation, voici d'autres activités que j'adore faire !",
+    "desc1": "Je suis jeune diplôme en  master intégré en informatique et réseaux à la Faculté des Sciences de Gabès. ",
+    "desc3": " Je compte également un an  en tant que développeur full stack Js et jusqu'a aujourd'hui  j'ai 3 mois d'expérience au sein de la société Go Talent.",
+    "desc2": "En dehors de ma passion pour la programmation, j'apprécie également m'adonner à d'autres activités.",
     "activities": {
-      "one": "Jouer à des jeux",
-      "tow": "Jouer à des jeux",
-      "three": "Jouer à des jeux",
-      "four": "Jouer à des jeux"
+      "one": "Design graphique",
+      "tow": "Photographe",
+      "three": "Bénévole"
+      
     },
     "desc4": "Je m'efforce de construire des choses qui font la différence !",
     "profSkils": "Compétences Professionnelles",

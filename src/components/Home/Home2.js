@@ -22,11 +22,11 @@ function Home2() {
               {t("HOME.myselgf.titel")} <span className="purple"> {t("HOME.myselgf.titel1")} </span>
             </h1>
             <p className="home-about-body">
-              {t("HOME.myselgf.desc1")}{" "}🤷‍♂️
+              {t("HOME.myselgf.desc1")}
               <br />
-              <br />{t("HOME.myselgf.desc2")}
+              
               <i>
-                <b className="purple"> {t("HOME.myselgf.desc5")}</b>
+                <b className="purple"> {t("HOME.myselgf.desc5")} {" "}🤷‍♂️</b>
               </i>
               <br />
               <br />
@@ -38,12 +38,12 @@ function Home2() {
               <br />
               <br />
               {t("HOME.myselgf.desc4")}
-              {/* <i>
+              <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  {t("HOME.myselgf.desc44")}
                 </b>
-              </i> */}
+              </i>
 
               {/* <i>
                 <b className="purple"> React.js and Next.js</b>
