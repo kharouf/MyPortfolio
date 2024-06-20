@@ -16,17 +16,17 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        {/* <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               {t("HOME.myselgf.titel")} <span className="purple"> {t("HOME.myselgf.titel1")} </span>
             </h1>
             <p className="home-about-body">
-              {t("HOME.myselgf.desc1")}{" "}🤷‍♂️
+              {t("HOME.myselgf.desc1")}
               <br />
-              <br />{t("HOME.myselgf.desc2")}
+              
               <i>
-                <b className="purple"> {t("HOME.myselgf.desc5")}</b>
+                <b className="purple"> {t("HOME.myselgf.desc5")} {" "}🤷‍♂️</b>
               </i>
               <br />
               <br />
@@ -38,16 +38,14 @@ function Home2() {
               <br />
               <br />
               {t("HOME.myselgf.desc4")}
-              {/* <i>
+              <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  {t("HOME.myselgf.desc44")}
                 </b>
-              </i> */}
+              </i>
 
-              {/* <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -55,7 +53,7 @@ function Home2() {
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>{t("HOME.find.titel")}</h1>
