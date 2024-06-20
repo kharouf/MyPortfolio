@@ -11,7 +11,7 @@ function Type() {
 
           t("HOME.MERN"),
           // "Software Developer",
-          t("HOME.FRELANCE"),,
+          // t("HOME.FRELANCE"),,
           
           // "Open Source Contributor",
         ],

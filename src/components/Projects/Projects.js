@@ -30,8 +30,8 @@ function Projects() {
             <ProjectCard
               imgPath={siteweb}
               isBlog={false}
-              title="Site web Lycée Ghannouchee"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title={t("PROJECTS.TLYCEE")}
+              description={t("PROJECTS.LYCEE")}
               ghLink="https://github.com/kharouf/Site_web_Lycee_Ghannouchee"
               // demoLink="https://chatify-49.web.app/"
             />
@@ -41,8 +41,8 @@ function Projects() {
             <ProjectCard
               imgPath={crtgh}
               isBlog={false}
-              title="Site Web Croissant Rouge Tunisien"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title={t("PROJECTS.TCRT")}
+              description={t("PROJECTS.CRT")}
               ghLink="https://github.com/kharouf/Site-Web-Croissant-Rouge-Tunisien"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -52,14 +52,14 @@ function Projects() {
             <ProjectCard
               imgPath={chalenge}
               isBlog={false}
-              title="Site Web livraison fast food"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title={t("PROJECTS.TFASTFOOD")}
+              description={t("PROJECTS.FASTFOOD")}
               ghLink="https://github.com/kharouf/Challenge-HTML-CSS-JS"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
+{/*
+           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
