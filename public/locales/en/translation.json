@@ -41,14 +41,13 @@
   "name":"Wala Kharouf",
   "from":"from",
   "gabes":"Tunisia, Gabes.",
-  "desc1":"I am a final year student pursuing an Integrated MSc (IMSc) in Maths and Computing at BIT Mesra.",
-  "desc3":" Additionally, I am currently employed as a software developer at Juspay.",
+  "desc1":"With a solid background in Full Stack JavaScript development, I have acquired advanced skills in React and Node.js. My academic background, including a master's degree in Computer Science and Networks and a degree in Business Informatics, allows me to tackle complex projects with a rigorous and analytical approach. Passionate about web development, I am constantly looking for new opportunities to apply my knowledge and develop innovative solutions.",
+  "desc3":"Additionally, I worked for three months as a Full Stack JavaScript Developer at ITalents.",
   "desc2":"Apart from coding, some other activities that I love to do!",
   "activities":{
-    "one":"Playing Games",
-    "tow":"Playing Games",
-    "three":"Playing Games",
-    "four":"Playing Games"
+    "one": "Graphic Design",
+    "two": "Photographer",
+    "three": "Volunteer"
   },
   "desc4":"Strive to build things that make a difference!",
   "profSkils":"Professional" ,
@@ -59,11 +58,22 @@
   "icode":"I Code"
 
   },
-  "PROJECTS":{
-   "myrecent":"My Recent",
-   "Works":" Works",
-   "desc":"Here are a few projects I've worked on recently."
-  },
+  "PROJECTS": {
+    "myrecent": "My Projects",
+    "Works": "Achievements",
+    "desc": "Here are some projects I have recently worked on.",
+    "TLYCEE": "Ghannouchee High School Website",
+    "LYCEE": "The Ghannouche High School website project aimed to create a comprehensive and user-friendly online platform for students, parents, and staff. The website serves as a central hub for all school-related information and activities, thereby enhancing communication and engagement within the school community.",
+    "TCRT": "Ghannouche Red Crescent Website",
+    "CRT": "Creation of a web platform aimed at promoting humanitarian actions, raising public awareness, and simplifying the process of donations and volunteering.",
+    "TFASTFOOD": "Fast Food Delivery Website",
+    "FASTFOOD": "A fast food delivery website is an online platform where users can order a variety of quickly prepared meals, often in the style of fast food.",
+    "TMOVIAPP": "",
+    "MOVIEAPP": "The main goal of the frontend development was to ensure a smooth user experience, offering users the ability to navigate seamlessly through movies, their details, and associated information.",
+    "TTODOAPP": "",
+    "TODOAPP": "The frontend development focused on creating an intuitive interface for easily adding, modifying, and deleting tasks."
+},
+
   "Resume":"Download CV",
 
   "FOOTER":{

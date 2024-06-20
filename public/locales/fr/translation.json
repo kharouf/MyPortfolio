@@ -42,8 +42,8 @@
     "name": "Wala Kharouf ",
     "from": "originaire de",
     "gabes": "Tunis, Gabès.",
-    "desc1": "Je suis jeune diplôme en  master intégré en informatique et réseaux à la Faculté des Sciences de Gabès. ",
-    "desc3": " Je compte également un an  en tant que développeur full stack Js et jusqu'a aujourd'hui  j'ai 3 mois d'expérience au sein de la société Go Talent.",
+    "desc1": "Avec une solide formation en développement Full Stack JavaScript, j'ai acquis des compétences avancées en React et Node.js. Mon parcours académique, comprenant un mastère en Informatique et Réseaux et une licence en Informatique de Gestion, me permet d'aborder des projets complexes avec une approche rigoureuse et analytique. Passionné par le développement web, je suis constamment à la recherche de nouvelles opportunités pour appliquer mes connaissances et développer des solutions innovantes.",
+    "desc3": "De plus, j'ai travaillé pendant trois mois en tant que développeur Full Stack JavaScript chez ITalents.",
     "desc2": "En dehors de ma passion pour la programmation, j'apprécie également m'adonner à d'autres activités.",
     "activities": {
       "one": "Design graphique",
@@ -52,8 +52,8 @@
       
     },
     "desc4": "Je m'efforce de construire des choses qui font la différence !",
-    "profSkils": "Compétences Professionnelles",
-    "skilitz": "Ensemble de Compétences",
+    "profSkils": "Compétences ",
+    "skilitz": "Professionnelles",
     "tools": "Outils ",
     "iuse": "J'utilise",
     "days": "Jours ",
@@ -62,7 +62,17 @@
   "PROJECTS": {
     "myrecent": "Mes Projets",
     "Works": " Réalisations",
-    "desc": "Voici quelques projets sur lesquels j'ai récemment travaillé."
+    "desc": "Voici quelques projets sur lesquels j'ai récemment travaillé.",
+    "TLYCEE":"Site web Lycée Ghannouchee",
+    "LYCEE":"Le projet de site Web du Lycée Ghannouche visait à créer une plateforme en ligne complète et conviviale pour les élèves, les parents et le personnel. Le site Web sert de plate-forme centrale pour toutes les informations et activités liées à l'école, améliorant ainsi la communication et l'engagement au sein de la communauté scolaire.",
+    "TCRT":"Site Web Croissant Rouge Ghannouche",
+    "CRT":"Création d'une plateforme web visant à encourager les actions humanitaires, sensibiliser le grand public et simplifier les démarches de dons et de volontariat",
+    "TFASTFOOD":"Site Web livraison fast food",
+    "FASTFOOD":"Un site web de livraison de fast food est une plateforme en ligne où les utilisateurs peuvent commander une variété de plats et de repas préparés rapidement, souvent dans le style de la restauration rapide.",
+    "TMOVIAPP":"",
+    "MOVIEAPP":"L'objectif principal du développement de la partie frontend était d'assurer une expérience utilisateur fluide, offrant aux utilisateurs la possibilité de naviguer aisément à travers les films, leurs détails et les informations associées.",
+    "TTODOAPP":"",
+    "TODOAPP":"Le développement de la partie frontend a été axé sur la création d'une interface intuitive permettant d'ajouter, de modifier et de supprimer des tâches en toute simplicité et rapidité."
   },
   "Resume": "Télécharger le CV",
 

@@ -29,13 +29,13 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> {t("ABOUTSUS.activities.three")}
             </li>
-            {/* <li className="about-activity">
+             {/* <li className="about-activity">
               <ImPointRight /> {t("ABOUTSUS.activities.four")}
-            </li> */}
+            </li>  */}
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "{t("ABOUTSUS.desc4")}"{" "}
+            {/* "{t("ABOUTSUS.desc4")}"{" "} */}
           </p>
           {/* <footer className="blockquote-footer">Kharouf</footer> */}
         </blockquote>
